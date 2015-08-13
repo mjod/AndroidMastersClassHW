@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/star_background">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBarTitle"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:text="Mickey Slider"
+        android:textSize="40dp"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_above="@id/seekBar1"
+        android:src="@drawable/sorcerer"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:id="@+id/movingImage" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar1"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="20dp"
+        android:max="100"
+        android:progress="50"
+        android:thumb="@drawable/ic_launcher"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

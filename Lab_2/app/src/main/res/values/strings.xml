@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lab 2: Layouts - O\'Donnell</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="about_me">About Me</string>
+    <string name="linear_layout">Linear Layout</string>
+    <string name="relative_layout">Relative Layout</string>
+    <string name="grid_layout">Grid Layout</string>
+    <string name="seekname">Mickey Slider</string>
+    <string name="home">Home</string>
+    <string name="title"><b>Lab 2</b></string>
+    <string name="by">by</string>
+    <string name="class_section"><b>CSE 691 - M800</b></string>
+    <string name="name"><b>Matthew O\'Donnell</b></string>
+    <string name="button_1">Button 1</string>
+    <string name="button_2">Button 2</string>
+    <string name="button_3">Button 3</string>
+    <string name="button_4">Button 4</string>
+    <string name="button_5">Button 5</string>
+    <string name="button_40">Button 40</string>
+    <string name="button_100000">Button 100000</string>
+    <string name="submit">Submit</string>
+    <string name="user">User:</string>
+    <string name="movie">Movie</string>
+    <string name="load_movie">Load Next Movie</string>
+    <string name="directed_by">Directed By:</string>
+    <string name="starring">Starring:</string>
+    <string name="seekbar">SeekBar</string>
+    <string name="mainTitle">Lab 2: Layout and UI Widget</string>
+
+</resources>

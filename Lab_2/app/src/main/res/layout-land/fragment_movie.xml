@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/movie_background"
+    >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/load_movie"
+        android:id="@+id/movie_button"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/star_helper" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/star_helper"
+        android:visibility="invisible"
+        android:text="stars"/>
+    <ImageView
+        android:layout_width="192dp"
+        android:layout_height="250dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        android:layout_above="@id/movie_button"
+        android:layout_alignTop="@id/title"
+        android:id="@+id/movieImage"
+        android:src="@drawable/alice"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:paddingTop="15dp"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/movieImage"
+        android:gravity="center"
+        android:text="Pirates of the Caribbean: Dead Man's Chest(2015)"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/director_view"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:paddingTop="25dp"
+        android:layout_toLeftOf="@id/actors_view"
+        android:layout_below="@id/title"
+        android:layout_toRightOf="@id/movieImage"
+        android:text="@string/directed_by"
+
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/director"
+        android:paddingTop="25dp"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:text="Matt"
+        android:layout_toRightOf="@id/movieImage"
+        android:layout_below="@+id/director_view"
+        android:layout_toStartOf="@+id/actors"
+        android:layout_alignBottom="@+id/actors" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/actors_view"
+        android:layout_below="@id/title"
+        android:paddingTop="25dp"
+        android:gravity="start"
+        android:textSize="20dp"
+        android:text="@string/starring"
+        android:layout_alignParentRight="true"
+        android:paddingRight="75dp"
+         />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/actors"
+        android:layout_below="@id/actors_view"
+        android:paddingTop="25dp"
+        android:gravity="left"
+        android:textSize="14dp"
+        android:text="Matt"
+        android:layout_alignStart="@+id/actors_view" />
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:id="@+id/stars"
+        android:layout_marginLeft="40dp"
+        android:layout_toLeftOf="@id/starRating"
+        android:layout_below="@+id/director" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="203 min"
+        android:gravity="center"
+        android:layout_below="@id/actors"
+        android:layout_toRightOf="@id/movieImage"
+        android:id="@+id/length"
+        android:textSize="25dp"
+        android:paddingTop="10dp"
+
+
+        android:layout_toStartOf="@+id/scrollView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(5.3)"
+        android:textSize="30dp"
+        android:id="@+id/starRating"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/actors"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/description_view"
+        android:gravity="center"
+        android:layout_toRightOf="@id/movie_button"
+        android:layout_below="@id/movieImage"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textSize="20dp"
+        android:text="Description:"/>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/stars"
+        android:layout_toRightOf="@id/description_view"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/scrollView">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/description"
+            android:scrollbars = "vertical"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:textSize="14dp"
+            />
+    </ScrollView>
+
+
+
+</RelativeLayout>

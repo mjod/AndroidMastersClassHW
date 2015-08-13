@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <DatePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/datePicker">
+        </DatePicker>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Event Name: "
+            android:gravity="center"
+            android:layout_below="@id/datePicker"
+            android:id="@+id/event"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/event"
+            android:layout_below="@id/datePicker"
+            android:hint="Example: Concert"
+            android:id="@+id/eventEdit"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Your Name: "
+            android:layout_below="@id/eventEdit"
+            android:id="@+id/name"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/name"
+            android:hint="Example: Bob"
+            android:layout_below="@id/eventEdit"
+            android:id="@+id/nameEdit"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameEdit">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:id="@+id/okayButton"
+                android:text="Okay"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:id="@+id/cancelButton"
+                android:text="Cancel"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lab 5 - O\'Donnell</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="class_section"><b>CSE 691 - M800</b></string>
+    <string name="name"><b>Matthew O\'Donnell</b></string>
+    <string name="aboutMe">About Me</string>
+    <string name="viewPager">ViewPager Activity</string>
+    <string name="masterDetailFlow">Master/Detail Flow</string>
+    <string name="title_activity_view_pager">ViewPagerActivity</string>
+    <string name="load_movie">Load Next Movie</string>
+    <string name="directed_by">Directed By:</string>
+    <string name="starring">Starring:</string>
+    <string name="title_activity_activity__master_detail">Activity_MasterDetail</string>
+
+</resources>

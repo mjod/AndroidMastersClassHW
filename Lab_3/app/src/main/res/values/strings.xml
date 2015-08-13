@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lab_3: Views - O\'Donnell</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_me">About Me</string>
+    <string name="linear_layout">Linear Layout</string>
+    <string name="relative_layout">Relative Layout</string>
+    <string name="grid_layout">Grid Layout</string>
+    <string name="home">Home</string>
+    <string name="title"><b>Lab 3</b></string>
+    <string name="by">by</string>
+    <string name="class_section"><b>CSE 691 - M800</b></string>
+    <string name="name"><b>Matthew O\'Donnell</b></string>
+    <string name="mainTitle">Lab 3: ListView and GridView</string>
+    <string name="SelectAll">Select All</string>
+    <string name="ClearAll">Clear All</string>
+    <string name="Delete">Delete</string>
+
+</resources>
