@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity$PlaceholderFragment"
+    android:background="#F36A24"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/imageFront"
+        android:src="@drawable/syracuse_banner"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_me"
+        android:text="@string/aboutMe"
+        android:layout_below="@id/imageFront"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingRight="50dp"
+        android:gravity="center"
+        android:text="Lab 6"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:layout_above="@id/about_me"
+        android:textSize="40dp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycler_button"
+        android:text="@string/RecyclerViewString"
+        android:layout_below="@id/about_me"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_page"
+        android:text="@string/viewPager"
+        android:layout_below="@id/recycler_button"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5" />
+
+</RelativeLayout>
